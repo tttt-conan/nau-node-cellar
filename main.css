@@ -1,0 +1,15 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	width: 100%;
+	margin: 0px auto;
+}
+
+#header_container{
+	width: 1170px;
+	height: 40px;
+	background-color: black;
+	color: #999999;
+}

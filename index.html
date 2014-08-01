@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+	<title>Node Cellar</title>
+	<head>
+		<link rel="stylesheet" href="main.css">
+		<link rel="stylesheet" href="view-details.css">
+	</head>
+	<body>
+		<div id="navBarContainer">
+			<div id="navBar">
+				<a class="homeNav" href="/home">Node Cellar</a>
+				<ul class="left">
+					<li><a href="nau-node-cellar/browse">Browse Wines</a></li>
+					<li><a href="nau-node-cellar/add">Add Wine</a></li>
+				</ul>
+				<ul class="right">
+					<li><a href="nau-node-cellar/about">About</a></li>
+					<li><a id="resources">Resources</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<div id="wineList" class="hidden">
+			<ul>
+			</ul>
+			<div id="pageNumbers"></div>
+		</div>
+
+		<div id="viewDetails">
+			<form>
+				<fieldset>
+					<legend>Wine Details</legend>
+					<br>
+					<div class="details">
+						<div class="inputs">
+							<div class="row">
+								<div><label>Id:</label></div>
+								<div><input  id="_id" type="text" value="xyz" disabled="true"></div>
+							</div>
+							<div class="row" >
+								<div><label>Name:</label></div>
+								<div><input id="name" type="text" value=""></div>
+							</div>
+							<div class="row" >
+								<div><label>Grapes:</label></div>
+								<div><input id="grapes" type="text" value=""></div>
+							</div>
+							<div class="row">
+								<div><label>Country:</label></div>
+								<div><input  id="country" type="text" value=""></div>
+							</div>
+							<div class="row" >
+								<div><label>Region:</label></div>
+								<div><input id="region" type="text" value=""></div>
+							</div>
+							<div class="row" >
+								<div><label for="">Year:</label></div>
+								<div>
+									<select id="year">
+										<option value="2014">2014</option>
+										<option value="2013">2013</option>
+										<option value="2012">2012</option>
+										<option value="2011">2011</option>
+										<option value="2010">2010</option>
+										<option value="2009">2009</option>
+										<option value="2008">2008</option>
+									</select>
+								</div>
+							</div>
+							<div class="row">
+								<div><label>Notes:</label></div>
+								<div><textarea  id="description" rows="8"></textarea></div>
+							</div>
+
+						</div>
+						<div id="image"></div>
+					</div>
+				</fieldset>
+				<div class="form-action"></div>
+			</form>
+		</div>
+
+		<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+		<script src="main.js"></script>
+
+	</body>
+</html>

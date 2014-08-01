@@ -5,6 +5,15 @@ body{
 	font-family: Helvetica, Arial, Open Sans, sans-serif;
 }
 
+.active{
+	display: block;
+}
+
+.hidden{
+	display: none;
+	height: 0px;
+}
+
 ul{
 	list-style-type: none;
 }

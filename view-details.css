@@ -1,0 +1,69 @@
+#viewDetails{
+	margin: 0px auto;
+	width: 1170px;
+}
+
+#viewDetails fieldset{
+	border: 0;
+	padding: 0;
+}
+
+#viewDetails legend{
+	border: 0;
+	margin-bottom: 20px;
+	padding: 0;
+	width: 100%;
+	font-size: 21px;
+	line-height: 40px;
+	font-weight: lighter;
+	font-family: sans-serif;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+.details .inputs{
+	width: 66%;
+}
+
+.row label{
+	font-weight: 100;
+	height: 100%;
+}
+
+.row{
+	margin-bottom: 20px;
+}
+
+.row div:first-child{
+	height: 100%;
+	width: 17%;
+	text-align: right;
+	display: inline-block;
+}
+
+.row div:last-child{
+	display: inline-block;
+	width: 82%;
+}
+
+.row:last-child div:first-child{
+	vertical-align: top;
+}
+
+.row input, .row select, .row textarea{
+	padding: 4px 6px;
+	margin-left: 20px;
+	border-radius: 3px;
+	color: #555555;
+	border: inset 1px;
+}
+.row input{
+	width: 220px;
+}
+
+.row select{
+	width: 90px;
+}
+
+.row textarea{
+	width: 85%;
+}

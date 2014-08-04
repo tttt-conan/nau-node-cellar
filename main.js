@@ -5,7 +5,7 @@ $(document).ready(function() {
 		success: function(wineList){
 			function renderList(wine){
 				var temp = "generic.jpg";
-				if(wine.hasOwnProperty("picture") === true)
+				if(wine.hasOwnProperty("picture") === true && wine.picture !== null)
 					temp = wine.picture;
 				return '<li><a data-id="'+ wine._id +'"><img src="http://dev.naustud.io:3000/pics/'+ temp
 				+'" alt="'+wine.name+'"><h5>'+wine.name+'</h5>'+wine.year+' '+wine.grapes
@@ -28,7 +28,7 @@ $(document).ready(function() {
 			success: function(wineList){
 				function renderList(wine){
 					var temp = "generic.jpg";
-					if(wine.hasOwnProperty("picture") === true)
+					if(wine.hasOwnProperty("picture") === true && wine.picture !== null)
 						temp = wine.picture;
 					return '<li><a data-id="'+ wine._id +'"><img src="http://dev.naustud.io:3000/pics/'+ temp
 					+'" alt="'+wine.name+'"><h5>'+wine.name+'</h5>'+wine.year+' '+wine.grapes

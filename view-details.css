@@ -31,6 +31,10 @@
 	font-size: 14px;
 }
 
+#_id:hover{
+	cursor: not-allowed;
+}
+
 .row{
 	margin-bottom: 20px;
 }

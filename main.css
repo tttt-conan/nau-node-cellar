@@ -58,6 +58,7 @@ ul{
 
 #navBar a:hover{
 	color: white;
+
 }
 
 .homeNav{
@@ -122,6 +123,8 @@ ul{
 	text-decoration: none;
 	display: inline-block;
 	font-weight: 100;
+
+	cursor: pointer;
 }
 
 #wineList a:hover{

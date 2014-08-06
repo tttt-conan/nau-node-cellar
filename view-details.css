@@ -102,3 +102,32 @@
 	display: block;
 	margin: 0px auto;
 }
+
+.form-action{
+	padding: 20px;
+	padding-left: 180px;
+	margin: 20px 0px;
+	color: #333333;
+	background-color: #f5f5f5;
+}
+
+.form-action a{
+	vertical-align: middle;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	padding: 4px 14px;
+	margin-bottom: 0;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.saveBttn{
+	background-color: #006dcc;
+	color: white;
+}
+
+.deleteBttn{
+	background-color: white;
+	color: black;
+}

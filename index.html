@@ -11,7 +11,7 @@
 				<a class="homeNav" href="/home">Node Cellar</a>
 				<ul class="left">
 					<li><a id="browseWine" href="#">Browse Wines</a></li>
-					<li><a href="#">Add Wine</a></li>
+					<li><a id="addWine" href="#">Add Wine</a></li>
 				</ul>
 				<ul class="right">
 					<li><a href="#">About</a></li>
@@ -35,7 +35,7 @@
 						<div class="inputs">
 							<div class="row">
 								<div><label>Id:</label></div>
-								<div><input  id="_id" type="text" value="xyz" disabled="true"></div>
+								<div><input  id="_id" type="text" value="" disabled="true"></div>
 							</div>
 							<div class="row" >
 								<div><label>Name:</label></div>
@@ -81,9 +81,14 @@
 						</div>
 					</div>
 				</fieldset>
-				<div class="form-action"></div>
+				<div class="form-action">
+					<a href="#" class="saveBttn">Save</a>
+					<a href="#" class="deleteBttn">Delete</a>
+				</div>
 			</form>
 		</div>
+
+		<div style="height: 80px"></div>
 
 		<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
 		<script src="main.js"></script>

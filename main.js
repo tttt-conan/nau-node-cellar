@@ -38,7 +38,7 @@ $(document).ready(function() {
 		$("#country").val("");
 		$("#region").val("");
 		$("#year").val("");
-		$("#description").text.empty();
+		$("#description").val("");
 		$("#picture").attr("src","http://dev.naustud.io:3000/pics/generic.jpg");
 		$("#wineList").find("ul").empty();
 		$("#viewDetails").removeClass("hidden");
